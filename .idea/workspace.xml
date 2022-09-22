@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46217ef8-f729-42d6-8cdf-c159c27897de" name="Changes" comment="first lesson commit">
+      <change afterPath="$PROJECT_DIR$/src/oop1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,26 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop1.Main" />
+      <module name="java-2022-camp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,6 +75,9 @@
       <workItem from="1663189344998" duration="133000" />
       <workItem from="1663189532540" duration="308000" />
       <workItem from="1663266866462" duration="357000" />
+      <workItem from="1663365518338" duration="298000" />
+      <workItem from="1663448453493" duration="162000" />
+      <workItem from="1663870866100" duration="399000" />
     </task>
     <task id="LOCAL-00001" summary="first lesson commit">
       <created>1663189767749</created>
@@ -61,7 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663189767749</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first lesson commit">
+      <created>1663365704678</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663365704678</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first lesson commit">
+      <created>1663365744651</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663365744651</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
