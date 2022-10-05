@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46217ef8-f729-42d6-8cdf-c159c27897de" name="Changes" comment="first lesson commit">
-      <change afterPath="$PROJECT_DIR$/src/oop1/Main.java" afterDir="false" />
+    <list default="true" id="46217ef8-f729-42d6-8cdf-c159c27897de" name="Changes" comment="oop yapısına giriş yapıldı">
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayaredApp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayaredApp/business/ProductManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayaredApp/core/logging/DatabaseLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayaredApp/core/logging/FileLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayaredApp/core/logging/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayaredApp/core/logging/MailLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayaredApp/dataAccess/HibernateProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayaredApp/dataAccess/JdbcProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayaredApp/dataAccess/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopWithNLayaredApp/entities/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -28,7 +37,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Em8KlBNJzVimcmellxsxc0SsYE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,7 +55,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.oopWithNLayaredApp.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop1.Main" />
       <module name="java-2022-camp" />
@@ -58,8 +69,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="oopWithNLayaredApp.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oopWithNLayaredApp.Main" />
+      <module name="java-2022-camp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oopWithNLayaredApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.oopWithNLayaredApp.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -77,7 +102,8 @@
       <workItem from="1663266866462" duration="357000" />
       <workItem from="1663365518338" duration="298000" />
       <workItem from="1663448453493" duration="162000" />
-      <workItem from="1663870866100" duration="399000" />
+      <workItem from="1663870866100" duration="1148000" />
+      <workItem from="1665002706513" duration="860000" />
     </task>
     <task id="LOCAL-00001" summary="first lesson commit">
       <created>1663189767749</created>
@@ -100,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663365744651</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="oop yapısına giriş yapıldı">
+      <created>1663871363376</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663871363376</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +152,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first lesson commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first lesson commit" />
+    <MESSAGE value="oop yapısına giriş yapıldı" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop yapısına giriş yapıldı" />
   </component>
 </project>
